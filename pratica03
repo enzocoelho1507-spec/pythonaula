@@ -1,0 +1,162 @@
+# ==========================================
+# PARTE 1 — VARIÁVEIS E TIPOS
+# ==========================================
+
+print("--- Exercício 1 — Cadastro simples ---")
+nome = "Ana"
+idade = 20
+cidade = "São Paulo"
+print(f"Nome: {nome}, Idade: {idade} anos, Cidade: {cidade}\n")
+
+print("--- Exercício 2 — Produto ---")
+produto = "Caderno"
+preco = 15.50
+quantidade = 3
+print(f"Produto: {produto} | Preço unitário: R$ {preco:.2f} | Quantidade: {quantidade}\n")
+
+print("--- Exercício 3 — Alteração de valor ---")
+pontos = 10
+print(f"Valor inicial: {pontos}")
+pontos = 20
+print(f"Valor alterado: {pontos}\n")
+
+print("--- Exercício 4 — Descobrindo os tipos ---")
+print(type("Pedro"))
+print(type(25))
+print(type(1.78))
+print(type("2026"))
+print("\n" + "="*40 + "\n")
+
+
+# ==========================================
+# PARTE 2 — CÁLCULOS COM VARIÁVEIS
+# ==========================================
+
+print("--- Exercício 5 — Quatro operações ---")
+a = 10
+b = 5
+print(f"Soma: {a + b}")
+print(f"Subtração: {a - b}")
+print(f"Multiplicação: {a * b}")
+print(f"Divisão: {a / b}\n")
+
+print("--- Exercício 6 — Média ---")
+nota1 = 7.5
+nota2 = 8.0
+nota3 = 9.0
+media = (nota1 + nota2 + nota3) / 3
+print(f"A média é: {media:.2f}\n")
+
+print("--- Exercício 7 — Compra ---")
+preco_compra = 49.90
+qtd_compra = 3
+total_compra = preco_compra * qtd_compra
+print(f"Total da compra: R$ {total_compra:.2f}\n")
+
+print("--- Exercício 8 — Salário e bônus ---")
+salario = 3500.00
+bonus = 500.00
+total_receber = salario + bonus
+print(f"Salário total a receber: R$ {total_receber:.2f}")
+print("\n" + "="*40 + "\n")
+
+
+# ==========================================
+# PARTE 3 — ENTRADA DE DADOS COM input()
+# ==========================================
+
+print("--- Exercício 9 — Saudação ---")
+nome_usuario = input("Digite seu nome: ")
+print(f"Olá, {nome_usuario}! Bem-vindo ao Python!\n")
+
+print("--- Exercício 10 — Cadastro interativo ---")
+nome_cad = input("Digite seu nome: ")
+idade_cad = input("Digite sua idade: ")
+curso_cad = input("Digite seu curso: ")
+print("\n--- FICHA CADASTRAL ---")
+print(f"Nome: {nome_cad}")
+print(f"Idade: {idade_cad}")
+print(f"Curso: {curso_cad}\n")
+
+print("--- Exercício 11 — Soma ---")
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
+print(f"A soma de {num1} + {num2} é: {num1 + num2}\n")
+
+print("--- Exercício 12 — Calculadora ---")
+calc1 = float(input("Digite o primeiro número: "))
+calc2 = float(input("Digite o segundo número: "))
+print(f"Soma: {calc1 + calc2}")
+print(f"Subtração: {calc1 - calc2}")
+print(f"Multiplicação: {calc1 * calc2}")
+print(f"Divisão: {calc1 / calc2}")
+print("\n" + "="*40 + "\n")
+
+
+# ==========================================
+# PARTE 4 — PROBLEMAS APLICADOS
+# ==========================================
+
+print("--- Exercício 13 — Média do aluno ---")
+aluno = input("Nome do aluno: ")
+n1 = float(input("Nota 1: "))
+n2 = float(input("Nota 2: "))
+media_aluno = (n1 + n2) / 2
+print("\n--- BOLETIM ---")
+print(f"Aluno: {aluno}")
+print(f"Nota 1: {n1}")
+print(f"Nota 2: {n2}")
+print(f"Média: {media_aluno:.2f}\n")
+
+print("--- Exercício 14 — Compra de produto ---")
+prod_nome = input("Nome do produto: ")
+prod_preco = float(input("Preço unitário: R$ "))
+prod_qtd = int(input("Quantidade: "))
+total_prod = prod_preco * prod_qtd
+print("\n--- RESUMO DA COMPRA ---")
+print(f"Produto: {prod_nome}")
+print(f"Preço unitário: R$ {prod_preco:.2f}")
+print(f"Quantidade: {prod_qtd}")
+print(f"Total: R$ {total_prod:.2f}\n")
+
+print("--- Exercício 15 — Pagamento ---")
+func_nome = input("Nome do funcionário: ")
+func_salario = float(input("Salário: R$ "))
+func_bonus = float(input("Bônus: R$ "))
+total_func = func_salario + func_bonus
+print("\n--- CONTRACHEQUE ---")
+print(f"Funcionário: {func_nome}")
+print(f"Salário base: R$ {func_salario:.2f}")
+print(f"Bônus: R$ {func_bonus:.2f}")
+print(f"Total a receber: R$ {total_func:.2f}\n")
+
+print("--- Exercício 16 — Desconto ---")
+preco_orig = float(input("Preço original: R$ "))
+val_desc = float(input("Valor do desconto em reais: R$ "))
+preco_final = preco_orig - val_desc
+print("\n--- RESUMO DO DESCONTO ---")
+print(f"Preço original: R$ {preco_orig:.2f}")
+print(f"Desconto: R$ {val_desc:.2f}")
+print(f"Preço final: R$ {preco_final:.2f}")
+print("\n" + "="*40 + "\n")
+
+
+# ==========================================
+# DESAFIO FINAL — SISTEMA DE PEDIDO
+# ==========================================
+
+print("--- DESAFIO FINAL — SISTEMA DE PEDIDO ---")
+cliente = input("Digite o nome do cliente: ")
+produto_pedido = input("Digite o nome do produto: ")
+preco_unit_pedido = float(input("Digite o preço unitário (ex: 15.00): "))
+qtd_pedido = int(input("Digite a quantidade: "))
+
+total_pedido = preco_unit_pedido * qtd_pedido
+
+print("\n========== PEDIDO ==========")
+print(f"Cliente: {cliente}")
+print(f"Produto: {produto_pedido}")
+print(f"Preço unitário: R$ {preco_unit_pedido:.2f}")
+print(f"Quantidade: {qtd_pedido}")
+print(f"Total da compra: R$ {total_pedido:.2f}")
+print("============================")
