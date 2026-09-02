@@ -1,6 +1,6 @@
-# ==========================================
+
 # PARTE 1 — VARIÁVEIS E TIPOS
-# ==========================================
+
 
 print("--- Exercício 1 — Cadastro simples ---")
 nome = "Ana"
@@ -28,9 +28,8 @@ print(type("2026"))
 print("\n" + "="*40 + "\n")
 
 
-# ==========================================
 # PARTE 2 — CÁLCULOS COM VARIÁVEIS
-# ==========================================
+
 
 print("--- Exercício 5 — Quatro operações ---")
 a = 10
@@ -61,9 +60,8 @@ print(f"Salário total a receber: R$ {total_receber:.2f}")
 print("\n" + "="*40 + "\n")
 
 
-# ==========================================
 # PARTE 3 — ENTRADA DE DADOS COM input()
-# ==========================================
+
 
 print("--- Exercício 9 — Saudação ---")
 nome_usuario = input("Digite seu nome: ")
@@ -93,9 +91,8 @@ print(f"Divisão: {calc1 / calc2}")
 print("\n" + "="*40 + "\n")
 
 
-# ==========================================
 # PARTE 4 — PROBLEMAS APLICADOS
-# ==========================================
+
 
 print("--- Exercício 13 — Média do aluno ---")
 aluno = input("Nome do aluno: ")
@@ -141,9 +138,8 @@ print(f"Preço final: R$ {preco_final:.2f}")
 print("\n" + "="*40 + "\n")
 
 
-# ==========================================
 # DESAFIO FINAL — SISTEMA DE PEDIDO
-# ==========================================
+
 
 print("--- DESAFIO FINAL — SISTEMA DE PEDIDO ---")
 cliente = input("Digite o nome do cliente: ")
